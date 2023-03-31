@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedding javascript into a webpage to be executed by the web browser</title>
+    <script src = "Hello.js">
+        // inside the script tag, we can write JavaScript 
+    </script>
+    <script>
+        console.log('yoyoyo embedding JS')
+    </script>
+  </head>
+<body>  
+    <h1>What's your name user!</h1>
+    <h2>Nice to meet you</h2>
+    <script>document.body.innerHTML = '<h1>Javascript says hello to you</h1>'</script>
+</body>
+</html>
